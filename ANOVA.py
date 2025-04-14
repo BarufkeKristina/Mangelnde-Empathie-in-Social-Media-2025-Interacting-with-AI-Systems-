@@ -1,7 +1,7 @@
 import pandas as pd
 import pingouin as pg
 
-
+#file_path bei allen Dateien zum jeweiligen Filepath anpassen
 file_path = r"Auswertung - Tabellenblatt1.csv"
 data = pd.read_csv(file_path)
 
